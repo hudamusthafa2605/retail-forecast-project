@@ -41,8 +41,8 @@ This project uses the Rossmann Store Sales dataset from Kaggle. Data files are n
 How to run locally
 bash
 # clone the repo
-git clone https://github.com/hudamusthafa2605/retail-demand-forecasting.git
-cd retail-demand-forecasting
+git clone https://github.com/hudamusthafa2605/retail-forecast-project.git
+cd retail-forecast-project
 
 # set up environment
 python -m venv venv
