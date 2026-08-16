@@ -3,7 +3,9 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Load the saved predictions/anomalies data
-df = pd.read_csv('../data/test_with_predictions.csv')
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+df = pd.read_csv(os.path.join(BASE_DIR, '..', 'data', 'test_with_predictions.csv'))
 df['Date'] = pd.to_datetime(df['Date'])
 st.set_page_config(page_title="Retail Demand Forecast Dashboard", layout="wide")
 st.title("📈 Retail Demand Forecasting & Anomaly Detection")
