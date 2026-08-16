@@ -1,6 +1,4 @@
-
-
-Readme · MD
+🔗 **[Live Demo](https://retail-forecast-project.streamlit.app)**
 Retail Demand Forecasting & Anomaly Detection
 A machine learning pipeline that forecasts daily retail sales per store and flags anomalous sales days using prediction residuals. Built end-to-end: data cleaning, feature engineering, model training, anomaly detection, and an interactive dashboard.
 
